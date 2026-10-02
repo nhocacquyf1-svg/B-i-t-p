@@ -27,4 +27,4 @@ giay = int (input("Nhập số giây: "))
 gio = giay // 3600
 phut = (giay % 3600) //60
 giay_con_lai = giay % 60
-print("Thời gian tương ứng là: {} giờ {} phút {} giây".format(gio, phut, giay_con_lai))
+print(f"Thời gian tương ứng là: {gio} giờ {phut} phút {giay_con_lai} giây")
