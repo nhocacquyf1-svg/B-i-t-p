@@ -21,3 +21,10 @@ cao = float (input("nhập chiều cao của bạn theo m: "))
 nang = float (input("nhập cân nặng của bạn theo kg: "))
 BMI = nang/cao**2
 print("Chỉ số BMI của bạn là:", round(BMI,2))
+
+#A4
+giay = int (input("Nhập số giây: "))
+gio = giay // 3600
+phut = (giay % 3600) //60
+giay_con_lai = giay % 60
+print("Thời gian tương ứng là: {} giờ {} phút {} giây".format(gio, phut, giay_con_lai))
