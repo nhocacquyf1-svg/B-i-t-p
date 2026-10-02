@@ -4,7 +4,7 @@ for i in range (3):
     diem =float (input("Nhập điểm của bạn: "))
     tong += diem
 diem_tb = tong/3
-print ("Điểm trung bình là:", diem_tb)
+print ("Điểm trung bình là:", round(diem_tb,2))
 
 #B2
 ho_ten =  (input("Nhập họ và tên: "))
